@@ -1,0 +1,27 @@
+.menu {
+  /* Style for menu button */
+  padding: 5px;
+  font-size: 20px;
+}
+
+.submenu {
+  /* Hide submenu */
+  display: none;
+}
+
+.submenu-item {
+  display: block;
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu:hover .submenu {
+  /* Show submenu on hover */
+  display: block;
+}
+
+.submenu-item:hover {
+  background-color: darkgray;
+}
