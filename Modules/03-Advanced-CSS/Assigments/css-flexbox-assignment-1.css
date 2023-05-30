@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-family: "Space Mono", monospace;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-hero {
+  background-color: black;
+  display: flex;
+}
+
+.header-main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 20px;
+  color: white;
+  padding: 50px;
+}
+
+.header-main-img {
+  padding: 20px;
+}
+
+.header-main-text h1 {
+  text-transform: uppercase;
+  font-size: 80px;
+}
+
+.header-main-text span {
+  text-align: justify;
+  font-size: larger;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card {
+    max-width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: monospace;
+    
+}
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.card-tags div {
+    background-color: rgb(32, 209, 41);
+    color: white;
+    border-radius: 15px;
+    padding: 2px 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.card-tags {
+    display: flex;
+    gap: 20px;
+}
+
+.img-wrapper .logo {
+    max-width: 100%;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.author-and-date {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 0px;
+}
+
+.img-wrapper {
+    display: flex;
+    font-size: 18px;
+}
+
+
