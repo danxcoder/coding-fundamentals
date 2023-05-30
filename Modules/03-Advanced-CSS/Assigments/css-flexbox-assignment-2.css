@@ -1,0 +1,39 @@
+.avatar-img img {
+  border: 1px solid none;
+  border-radius: 9999px;
+  width: 64px;
+  height: 64px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.avatar-img span {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.customer-review {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  border: 2px solid;
+  padding: 10px;
+  margin: auto;
+}
+
+.avatar-img {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; 
+}
+
+.star-icon {
+  color: #ffc700;
+}
+
+.customer-comment {
+  display: block;
+  margin-top: 10px;
+}
